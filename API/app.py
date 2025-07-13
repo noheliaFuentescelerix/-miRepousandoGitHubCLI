@@ -23,3 +23,7 @@ def get_superheroes():
 
 
 
+@app.get("/cursosPlatzi")
+def get_cursos():
+    rows = ["Curso de Python", "Curso de JavaScript", "Curso de React", "Curso de Node.js"]
+    return rows
